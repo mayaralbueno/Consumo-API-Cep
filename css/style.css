@@ -7,8 +7,8 @@
 }
 
 :root {
-    --bg-color: #000;
-    --primary-color: #EBCE07
+    --bg-color: rgb(235, 217, 230);
+    --primary-color: 	#000000
 }
 
 body {
@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--bg-color) ;
+    background-color: rgb(156, 102, 156) ;
 }
 
 .container {
@@ -34,7 +34,7 @@ body {
     font-size: 40px;
     text-align: center;
     user-select: none;
-    color: var(--primary-color);
+    color: black;
 }
 
 .row {
@@ -98,12 +98,12 @@ input::-webkit-inner-spin-button {
     border:none;
     outline: none;
     cursor: pointer;
-    background-color: var(--primary-color);
+    background-color: rgb(40, 16, 63);
     font-size: 20px;
     font-weight: bold;
     border-radius: 2px;
 }
 
 footer {
-    color: var(--primary-color);
+    color: rgb(116, 37, 116);
 }
