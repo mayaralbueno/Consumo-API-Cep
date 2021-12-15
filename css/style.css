@@ -7,8 +7,8 @@
 }
 
 :root {
-    --bg-color: rgb(235, 217, 230);
-    --primary-color: 	#000000
+    --bg-color: rgb(134, 121, 130);
+    --primary-color: 	#ffffff	
 }
 
 body {
@@ -49,17 +49,14 @@ body {
     height: 40px;
 }
 
-/* input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-} */
+
 
 .inputbox label {
     position: relative;
     top:0;
     left: 10px;
     font-size: 20px;
-    color: var(--primary-color);
+    color:black;
     transition: .5s;
     cursor: text;
 }
