@@ -1,6 +1,7 @@
 'use strict'
-const pesquisarCep = ()=>{
-     const cep = document.getElementById('cep').value;
-     console.log(cep);
+const limparFormulario = (endereco) => {
+  document.getElementById('endereco').value = '';
+  document.getElementById('bairro').value = '';
+  document.getElementById('cidade').value = '';
+  document.getElementById('estado').value = '';
 }
-document.getElementById('cep').addEventListener('focusot',pesquisarCep);
